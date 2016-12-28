@@ -1,0 +1,67 @@
+
+<!-- Css style -->
+<link href="css/new-age.css" rel="stylesheet">
+<!--Never pull Bootstrap Core CSS here, it override page's formating and fucks all up-->
+
+
+
+
+
+
+    <nav style="background-color: white;" id="mainNav" class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#toggle">
+                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+                </button>
+                <a  id="logo" class="navbar-brand page-scroll" href="index.php"><img src="img/senhorvaga.png"></a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="toggle">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a style="color:#d27575" id="cadastrovaga" class="page-scroll" href="submit.php"><b><i>Anuncie uma vaga!</i></b></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="index.php">Início</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#features">Vantagens</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="vagas.html">Vagas</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contato</a>
+                    </li>
+                    <li>
+                        <a style="background-color:#529b9c; color: white;" class="page-scroll" href="login.html">Entrar</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <!-- jQuery -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+
+    <!-- Theme JavaScript -->
+    <script src="js/new-age.min.js"></script>
+
+    <script> 
+        $(document).ready(function () {
+        $(document).on('click',function(){
+        $('.collapse').collapse('hide');
+        })
+</script> 
+    </script>
